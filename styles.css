@@ -1,0 +1,26 @@
+body {
+	/*padding: 100px;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	background: url("images/pattern-zigzag.jpeg");
+	/*background: url("images/pattern-zigzag.jpeg") no-repeat center center;*/
+}
+li {
+	margin-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.image img {
+	width: 100%;
+}
+
+@media (min-width: 800px) {
+	.page-wrap {
+		width: 500px;
+		margin: 0 auto;
+		/*background-color: blue;*/
+	}
+}
